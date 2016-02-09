@@ -1,14 +1,7 @@
-Nome: Heloisa Rosaria Bruno Carbone
-N° 26
-Prontuário: 0951773
-Turma 332
-
+Autor: Heloisa Rosaria Bruno Carbone
 _______________________________________________
 	Site The Vampire Diaries
 
-Iniciar o site pela Abertura, ou pela INDEX, ou INDEXEnglish,
-que estão na pasta Site.
-
-O site deve ser executado no navegador Chrome, Firefox ou Safari.
-
-Na resolução de 1388 x 768
+To see the site go in the ./site folder and open or Abertura.html or INDEX.html or INDEXEnglish.html
+It is preferable to use Chrome.
+It is made preferable to the 1388 x 768 resolution
