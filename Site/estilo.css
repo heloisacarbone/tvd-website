@@ -1,0 +1,815 @@
+/* CSS Document */
+/*Design Fixo Fundo*/
+body{
+
+	width:100%;
+	background-position:center top;
+	background-color:#f5f3f3;
+	background-image:url("templateFundo.png");
+	background-repeat:no-repeat;
+	margin:0;
+	padding:0;
+
+}
+.divMaster{
+	width: 1000px;
+	margin:auto;    
+	text-align:left;    
+		
+
+
+}
+/*bandeira USA*/
+DIV.divBandeiraUSA{
+
+position: absolute;
+z-index:2;
+	
+}
+DIV.divBandeiraUSA a { 
+	position: relative;
+	left:920px;
+	top:155px; 
+	padding:0px;
+	text-decoration: none;
+	text-align:center;	
+	background: url('../IMAGENS/bandeiraUSA.png') no-repeat center center;	
+	width:40px;  
+	height:40px;	
+	display:block;	
+}
+DIV.divBandeiraUSA a:hover { 
+	background:  url('../IMAGENS/bandeiraUSAMouseSobre.png') no-repeat center center;
+}
+
+/*bandeira Brasil*/
+DIV.divBandeiraBrasil{
+	position: absolute;
+	z-index:2;
+	
+}
+DIV.divBandeiraBrasil a { 
+	position: relative;
+	left:880px;
+	top:155px; 
+	padding:0px;
+	text-decoration: none;
+	text-align:center;	
+	background: url('../IMAGENS/bandeiraBrasil.png') no-repeat center center;	
+	width:40px;  
+	height:40px;	
+	display:block;	
+}
+DIV.divBandeiraBrasil a:hover { 
+	background:  url('../IMAGENS/bandeiraBrasilMouseSobre.png') no-repeat center center;
+}
+
+
+/*botão Home*/
+DIV.divButtonHome{
+	position: absolute;
+	
+}
+DIV.divButtonHome a {  
+	position: relative;
+	left:80px;
+	top:203px;
+	padding:0px;
+	text-decoration: none;
+	text-align:center;	
+	background: url('../IMAGENS/botaoHome.png') no-repeat center center;	
+	width:146px;  
+	height:40px;	
+	display:block;	
+}
+DIV.divButtonHome a:hover { 
+	background:  url('../IMAGENS/botaoHomeMouseSobre.png') no-repeat center center;
+}
+
+/*botão Série*/
+DIV.divButtonSerie{
+	position: absolute;
+
+
+	
+}
+DIV.divButtonSerie a {  
+	position: relative;
+	left:226px;
+	top:203px;
+	padding:0px;
+	text-decoration: none;
+	text-align:center;	
+	background: url('../IMAGENS/botaoSerie.png') no-repeat center center;	
+	width:146px;  
+	height:40px;	
+	display:block;	
+}
+DIV.divButtonSerie a:hover { 
+	background:  url('../IMAGENS/botaoSerieMouseSobre.png') no-repeat center center;
+}
+/*botão Livros*/
+DIV.divButtonLivro{
+	position: absolute;
+
+
+}
+DIV.divButtonLivro a {  
+	position: relative;
+	left:372px;
+	top:203px;
+	padding:0px;
+	text-decoration: none;
+	text-align:center;	
+	background: url('../IMAGENS/botaoLivros.png') no-repeat center center;	
+	width:146px;  
+	height:40px;	
+	display:block;	
+}
+DIV.divButtonLivro a:hover { 
+	background:  url('../IMAGENS/botaoLivrosMouseSobre.png') no-repeat center center;
+}
+
+/*botão elenco*/
+DIV.divButtonElenco{
+	position: absolute;
+
+}
+DIV.divButtonElenco a {  
+	position: relative;
+	left:518px;
+	top:203px;
+	padding:0px;
+	text-decoration: none;
+	text-align:center;	
+	background: url('../IMAGENS/botaoElenco.png') no-repeat center center;	
+	width:146px;  
+	height:40px;	
+	display:block;	
+}
+DIV.divButtonElenco a:hover { 
+	background:  url('../IMAGENS/botaoElencoMouseSobre.png') no-repeat center center;
+}
+/*botão Músicas*/
+DIV.divButtonMusica{
+	position: absolute;
+}
+DIV.divButtonMusica a {  
+	position: relative;
+	left:664px;
+	top:203px;
+	padding:0px;
+	text-decoration: none;
+	text-align:center;	
+	background: url('../IMAGENS/botaoMusicas.png') no-repeat center center;	
+	width:146px;  
+	height:40px;	
+	display:block;	
+}
+DIV.divButtonMusica a:hover { 
+	background:  url('../IMAGENS/botaoMusicasMouseSobre.png') no-repeat center center;
+}
+/*botão Contato*/
+
+DIV.divButtonCadastro{
+	position: absolute;
+
+}
+DIV.divButtonCadastro a {
+	position: relative;
+	left:810px;
+	top:203px;  
+	padding:0px;
+	text-decoration: none;
+	text-align:center;	
+	background: url('../IMAGENS/botaoContato.png') no-repeat center center;	
+	width:146px;  
+	height:40px;	
+	display:block;	
+}
+DIV.divButtonCadastro a:hover { 
+	background:  url('../IMAGENS/botaoContatoMouseSobre.png') no-repeat center center;
+}
+/*botão Personagens*/
+DIV.divButtonPersonagens{
+	position:absolute;
+	z-index:2;
+	
+}
+DIV.divButtonPersonagens a {  
+	position:relative;
+	left:670px;
+	top:250px;
+	padding:0px;
+	text-decoration: none;
+	text-align:center;	
+	background: url('../IMAGENS/botaoPersonagens.png') no-repeat center center;	
+	width:270px;  
+	height:100px;	
+	display:block;	
+}
+DIV.divButtonPersonagens a:hover { 
+	background:  url('../IMAGENS/botaoPersonagensMouseSobre.png') no-repeat center center;
+}
+
+/*botão download*/
+
+DIV.divButtonDownload{
+	position:absolute;
+	z-index:2;
+	
+	
+}
+DIV.divButtonDownload a {  
+	position:relative;
+	left:670px;
+	top:350px;
+	padding:0px;
+	text-decoration: none;
+	text-align:center;	
+	background: url('../IMAGENS/quiz.png') no-repeat center center;	
+	width:270px;  
+	height:100px;	
+	display:block;	
+}
+DIV.divButtonDownload a:hover { 
+	background:  url('../IMAGENS/quizMouseSobre.png') no-repeat center center;
+}
+/*botão Galeria*/
+DIV.divButtonGaleria{
+	position:absolute;
+	z-index:2;
+	
+
+}
+DIV.divButtonGaleria a {  
+	position:relative;
+	left:670px;
+	top:450px;
+	padding:0px;
+	text-decoration: none;
+	text-align:center;	
+	background: url('../IMAGENS/botaoGaleria.png') no-repeat center center;	
+	width:270px;  
+	height:100px;	
+	display:block;	
+}
+DIV.divButtonGaleria a:hover { 
+	background:  url('../IMAGENS/botaoGaleriaMouseSobre.png') no-repeat center center;
+}
+
+
+#imagem{
+	position:relative;
+	
+}
+
+/* Div texto*/
+DIV.masterMeio{
+	position:relative;
+	top:10px;
+	left:10px;
+	width: 950px;
+	margin:auto;    
+	text-align:left;   
+}
+
+
+#TextoContatoWebMaster{
+	font-family: Century Gothic;
+	font-size:small;
+	color:#2e0101;
+	text-align:center;
+	
+}
+DIV.divTexto{
+	background-image:url("boxTexto.png");
+	position:absolute;
+	left:60px;
+	top:253px;
+	width:605px;
+	height:705px;
+}
+/*Formatação do Texto*/
+h1{
+	font-family: Century Gothic;
+	font-size:x-large;
+	color:#2E0101;
+	text-align:center;
+}
+pre{
+	font-family: "Century Gothic";
+	font-size:medium;
+	color:black;
+	text-align:center;
+}
+ul{
+	font-family: Century Gothic;
+	font-size:large;
+	color:#2E0101;
+	list-style-type:none;
+}
+
+pre.TextoLongo{
+	font-family: Century Gothic;
+	font-size:small;
+	color:black;
+	text-align:center;
+	
+}
+
+
+/*botão de retorno com sobreposição de imagens*/
+.posicionamentoBotaoRetorno{
+	position:relative;
+
+	margin:0px;
+	padding:0px;
+
+}
+
+.posicionamentoBotaoRetorno a {  
+	position:absolute;
+	bottom:-25px;
+	left:50px;
+	padding:0px;
+	text-decoration: none;
+	text-align:center;	
+	background: url('../IMAGENS/setaAnterior.png') no-repeat center center;	
+	width:50px;  
+	height:50px;	
+	display:block;	
+}
+.posicionamentoBotaoRetorno a:hover { 
+	background:  url('../IMAGENS/setaAnteriorMouseSobre.png') no-repeat center center;
+}
+
+/*botão de próximo com sobreposição de imagens*/
+.posicionamentoBotaoProximo{
+	position:relative;
+
+	margin:0px;
+	padding:0px;
+
+}
+
+.posicionamentoBotaoProximo a {  
+	position:absolute;
+	bottom:-25px;
+	right:50px;
+	padding:0px;
+	text-decoration: none;
+	text-align:center;	
+	background: url('../IMAGENS/setaProximo.png') no-repeat center center;	
+	width:50px;  
+	height:50px;	
+	display:block;	
+}
+.posicionamentoBotaoProximo a:hover { 
+	background:  url('../IMAGENS/setaProximoMouseSobre.png') no-repeat center center;
+}
+
+/*classes: resumosTemporada  botão de retorno para o menu*/
+.posicionamentoHomeResumo{
+	position:relative;
+
+	margin:0px;
+	padding:0px;
+
+}
+
+.posicionamentoHomeResumo a {  
+	position:absolute;
+	bottom:-25px;
+	right:230px;
+	padding:0px;
+	text-decoration: none;
+	text-align:center;	
+	background: url('../IMAGENS/botaoHomeResumo.png') no-repeat center center;	
+	width:135px;  
+	height:50px;	
+	display:block;	
+}
+.posicionamentoHomeResumo a:hover { 
+	background:  url('../IMAGENS/botaoHomeResumoMouseSobre.png') no-repeat center center;
+}
+
+/*classes guias de episodio para voltar ao menu de guias*/
+
+.posicionamentoHomeGuiaEpisodios{
+	position:relative ;
+	margin:0px;
+	padding:0px;
+
+}
+
+.posicionamentoHomeGuiaEpisodios a {  
+	position:absolute ;
+	bottom:-25px;
+	right:215px;
+	padding:0px;
+	text-decoration: none;
+	text-align:center;	
+	background: url('../IMAGENS/botaoHomeGuiaEpisodios.png') no-repeat center center;	
+	width:180px;  
+	height:50px;	
+	display:block;	
+}
+.posicionamentoHomeGuiaEpisodios a:hover { 
+	background:  url('../IMAGENS/botaoHomeGuiaEpisodiosMouseSobre.png') no-repeat center center;
+}
+
+/*PAra a pagina serie*/
+.posicionamentoHomeResumo2{
+	position:relative;
+	
+	margin:0px;
+	padding:0px;
+
+}
+
+.posicionamentoHomeResumo2 a {  
+	position:absolute;
+	bottom:-50px;
+	left:150px;	
+	padding:0px;
+	text-decoration: none;
+	text-align:center;	
+	background: url('../IMAGENS/botaoHomeResumo.png') no-repeat center center;	
+	width:135px;  
+	height:50px;	
+	display:block;	
+}
+.posicionamentoHomeResumo2 a:hover { 
+	background:  url('../IMAGENS/botaoHomeResumoMouseSobre.png') no-repeat center center;
+}
+
+.posicionamentoHomeGuiaEpisodios2{
+
+	position:relative;
+	
+	margin:0px;
+	padding:0px;
+
+}
+
+.posicionamentoHomeGuiaEpisodios2 a { 
+	position:absolute;
+	bottom:-50px;
+	right:150px; 
+	padding:0px;
+	text-decoration: none;
+	text-align:center;	
+	background: url('../IMAGENS/botaoHomeGuiaEpisodios.png') no-repeat center center;	
+	width:180px;  
+	height:50px;	
+	display:block;	
+}
+.posicionamentoHomeGuiaEpisodios2 a:hover { 
+	background:  url('../IMAGENS/botaoHomeGuiaEpisodiosMouseSobre.png') no-repeat center center;
+}
+	
+DIV.imagemContato{
+	position:absolute;
+	top:30px;
+	left:30px;
+}
+DIV.textoContato{
+	position:absolute;
+	text-align:center;
+	width: 800px;
+	height: 264px;
+}
+
+.botaoEnviar{
+	position:absolute;
+}
+.botaoEnviar a{
+	position:relative;
+	top:22px;
+	left:310px;
+
+	padding:0px;
+	text-decoration: none;
+	text-align:center;	
+	background: url('../IMAGENS/botaoEnviar.png') no-repeat center center;	
+	width:180px;  
+	height:50px;	
+	display:block;	
+}
+.botaoEnviar a:hover { 
+	background:  url('../IMAGENS/botaoEnviarMouseSobre.png') no-repeat center center;
+}
+
+.botaoSubir{
+	position:absolute;
+}
+
+.botaoSubir a{
+	position:relative;
+	top:15px;
+	left:225px;
+
+	padding:0px;
+	text-decoration: none;
+	text-align:center;	
+	background: url('../IMAGENS/botaoSubir.png') no-repeat center center;	
+	width:180px;  
+	height:50px;	
+	display:block;	
+}
+.botaoSubir a:hover { 
+	background:  url('../IMAGENS/botaoSubirMouseSobre.png') no-repeat center center;
+}
+	
+#fonteAhref{
+	font-family: Century Gothic;
+	font-size:medium;
+	font-style:inherit;
+	color:#2E0101;
+	text-align:center;
+	
+}
+
+DIV.botaoRetornoSerie{
+	position:absolute;
+	top:20px;
+	right:20px;
+	
+}
+
+DIV.divParaTextoGrande{
+	background-image:url("boxTextoGrande.png");
+	position:absolute;
+	left:60px;
+	top:253px;
+	width:605px;
+	height:1105px;
+}
+
+DIV.arrumandoOsEpisodios{
+	position:relative;
+	left:80px;
+	top:2px;
+}
+DIV.arrumandoOsLivros{
+	position:relative;
+	left:-10px;
+	top:2px;
+}
+
+DIV.arrumandoOsPersonagens{
+	position:relative;
+	left:10px;
+	top:2px;
+}
+
+.posicionamentoHomeLivros{
+	position:relative;
+
+	margin:0px;
+	padding:0px;
+
+}
+
+.posicionamentoHomeLivros a {  
+	position:absolute;
+	bottom:-25px;
+	left:230px;
+	padding:0px;
+	text-decoration: none;
+	text-align:center;	
+	background: url('../IMAGENS/botaoRetornarLivros.png') no-repeat center center;	
+	width:150px;  
+	height:50px;	
+	display:block;	
+}
+.posicionamentoHomeLivros a:hover { 
+	background:  url('../IMAGENS/botaoRetornarLivrosMouseSobre.png') no-repeat center center;
+}
+ul.configPersonagem{
+	list-style-type:disc;
+	font-family: Century Gothic;
+	font-size:medium;
+	color:#2E0101;
+
+	
+}
+DIV.textoPersonagens{
+	position:absolute;
+	top:20px;
+	right:20px;
+	text-align:center;
+	width: 320px;
+	height: 700px;
+}
+
+
+.posicionamentoHomePersonagens{
+	position:relative;
+
+	margin:0px;
+	padding:0px;
+
+}
+
+
+.posicionamentoHomePersonagens a {  
+	position:absolute;
+	bottom:-25px;
+	left:230px;
+	padding:0px;
+	text-decoration: none;
+	text-align:center;	
+	background: url('../IMAGENS/RetornaPersonagens.png') no-repeat center center;	
+	width:150px;  
+	height:50px;	
+	display:block;	
+}
+.posicionamentoHomePersonagens a:hover { 
+	background:  url('../IMAGENS/RetornaPersonagensMouseSobre.png') no-repeat center center;
+}
+
+
+.botaoTwitter{
+	position:relative;
+
+	margin:0px;
+	padding:0px;
+
+}
+
+.botaoTwitter a {  
+	position:absolute;
+	bottom:-45px;
+	left:210px;
+	padding:0px;
+	text-decoration: none;
+	text-align:center;	
+	background: url('../IMAGENS/Contato/twitter1.png') no-repeat center center;	
+	width:50px;  
+	height:50px;	
+	display:block;	
+}
+.botaoTwitter a:hover { 
+	background:  url('../IMAGENS/Contato/twitter1MouseSobre.png') no-repeat center center;
+}
+
+.botaoFacebook{
+	position:relative;
+
+	margin:0px;
+	padding:0px;
+
+}
+
+.botaoFacebook a {  
+	position:absolute;
+	bottom:-45px;
+	left:270px;
+	padding:0px;
+	text-decoration: none;
+	text-align:center;	
+	background: url('../IMAGENS/Contato/face1.png') no-repeat center center;	
+	width:50px;  
+	height:50px;	
+	display:block;	
+}
+.botaoFacebook a:hover { 
+	background:  url('../IMAGENS/Contato/face1MouseSobre.png') no-repeat center center;
+}
+
+.botaoLink{
+	position:relative;
+
+	margin:0px;
+	padding:0px;
+
+}
+
+.botaoLink a {  
+	position:absolute;
+	bottom:-45px;
+	left:330px;
+	padding:0px;
+	text-decoration: none;
+	text-align:center;	
+	background: url('../IMAGENS/Contato/link1.png') no-repeat center center;	
+	width:50px;  
+	height:50px;	
+	display:block;	
+}
+.botaoLink a:hover { 
+	background:  url('../IMAGENS/Contato/link1MouseSobre.png') no-repeat center center;
+}
+DIV.divElencoNina{
+	position:absolute;
+	top:380px;
+	left:30px;
+}
+DIV.textoElencoNina{
+	position:absolute;
+	top:360px;
+	right:20px;
+	text-align:center;
+	width: 320px;
+	height: 700px;
+	
+}
+
+.posicionamentoRetornarElenco{
+	position:relative;
+
+	margin:0px;
+	padding:0px;
+
+}
+
+.posicionamentoRetornarElenco a {  
+	position:absolute;
+	bottom:-25px;
+	right:220px;
+	padding:0px;
+	text-decoration: none;
+	text-align:center;	
+	background: url('../IMAGENS/botaoRetornarElenco.png') no-repeat center center;	
+	width:150px;  
+	height:50px;	
+	display:block;	
+}
+.posicionamentoRetornarElenco a:hover { 
+	background:  url('../IMAGENS/botaoRetornarElencoMouseSobre.png') no-repeat center center;
+}
+
+DIV.textoIrParaPersonagemDaPessoa{
+	position:absolute;
+	top:850px;
+	left:30px;
+	text-align:center;
+	width: 250px;
+	
+	
+}
+DIV.textoIrParaElencoDaPessoa{
+	position:absolute;
+	top:500px;
+	left:30px;
+	text-align:center;
+	width: 250px;
+	
+	
+}
+
+DIV.divGaleria{
+	position:relative;
+	top:0px;
+	left:5px;
+	
+}
+
+.posicionamentoRetornarGaleria{
+	position:relative;
+
+	margin:0px;
+	padding:0px;
+
+}
+
+.posicionamentoRetornarGaleria a {  
+	position:absolute;
+	bottom:-25px;
+	right:220px;
+	padding:0px;
+	text-decoration: none;
+	text-align:center;	
+	background: url('../IMAGENS/botaoRetornarGaleria.png') no-repeat center center;	
+	width:150px;  
+	height:50px;	
+	display:block;	
+}
+.posicionamentoRetornarGaleria a:hover { 
+	background:  url('../IMAGENS/botaoRetornarGaleriaMouseSobre.png') no-repeat center center;
+}
+
+.numeracaoPaginaGaleria{
+	position:absolute;
+	bottom:10px;
+	right:250px;
+}
+
+DIV.divReferencias{
+	position:relative;
+	bottom:-50px;
+	right:0px;
+	
+}
+#fontReferenciaBibliografica{
+	font-family: Century Gothic;
+	font-size:x-small;
+	color:black;
+	text-align:center;
+	
+}
+bodyAbertura{
+	background-color:black;
+}
